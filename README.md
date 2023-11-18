@@ -17,6 +17,8 @@ This repository contains source code for KBS paper "Cross-attention-based multi-
 
 Codes are run on `Ubuntu 22.04` with `an Nvidia RTX 2080 GPU`. 
 
+Note: Due to the requirements of project, raw datasets used in the paper are not provided.
+
 ## Citation
 
 If this project useful for your research, please cite the original journal paper with the following BibTex entry.
