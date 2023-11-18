@@ -1,0 +1,4 @@
+# @package _global_
+hydra:
+  run:
+    dir: ${path.root_dir}/outputs/${exp_name}/${exp_name}-${model_name}-${now:%Y%m%d_%H%M%S}

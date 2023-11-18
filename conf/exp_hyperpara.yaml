@@ -1,0 +1,22 @@
+defaults:
+  - _self_
+  - override hydra/output: custom
+
+exp_name: hyperpara
+model_name: multirescnn # cnn1d rescnn multicnn eamulticnn multirescnn
+pretty_print: False
+
+params:
+  batch_size: 64
+  test_batch_size: 128
+
+data:
+  shift_step: 256
+  sample_len: 1024
+
+path:
+  root_dir: /home/hxf/research/cafnet-laser-welding
+  data_root_dir: ${path.root_dir}/data
+  raw_path: ${path.data_root_dir}/raw
+  process_path: ${path.data_root_dir}/process/process.h5
+
